@@ -17,9 +17,15 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from newsapp import views
+from newsapp import views 
+from newsapp import views 
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("",views.news)
+    path("",views.news),
+    path('politics/',views.politics),
+    path('sports/',views.sports),
+    path('technology/',views.technology),
+    path('weather/',views.weather),
 ]
