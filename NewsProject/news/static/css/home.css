@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e9ecef, #f8f9fa);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  margin: 0;
+}
+
+
+.one h1 {
+  color: #343a40;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.one h3 {
+  color: #6c757d;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.two button {
+  border: none;
+  padding: 0;
+}
+
+.two .btn a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.two .btn a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.three {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.three h4 {
+  color: #212529;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.three ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.three li {
+  padding: 8px 0;
+  border-bottom: 1px solid #dee2e6;
+  color: #495057;
+}
+
+.three li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 500px) {
+  .one h1 {
+    font-size: 2rem;
+  }
+
+  .two {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .three {
+    padding: 15px 20px;
+  }
+}
